@@ -1,7 +1,7 @@
 # csci202
 This is the location where all of Parker Grady's CSCI202 assignments will be stored and hosted.
 
-To view webpage as rendered HTML, you can use this handy tool.
+To view webpage as rendered HTML without forking, you can use this handy tool.
 Simply prepend any github link with this: 
 
     http://htmlpreview.github.io/?
