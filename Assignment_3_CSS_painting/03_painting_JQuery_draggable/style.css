@@ -89,7 +89,8 @@
     width: 90px;
     height: 10px;
     background-color: gray;
-    /* align-self: left; */
+    justify-self: first;
+    align-self: left;
     margin-top: 3em;
     grid-column: 1;
 }
@@ -97,11 +98,15 @@
 .box10 {
     width: 100px;
     height: 100px;
-    background-color: gray;
+    background-color: rgb(231, 59, 59);
+    align-self: center;
+    margin-top: 2em;
 }
 
 .box11 {
-    width: 100px;
-    height: 100px;
+    width: 10px;
+    height: 90px;
     background-color: gray;
+    transform: rotate(-45deg);
+    margin-top: 2em;
 }
