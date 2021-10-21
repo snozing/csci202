@@ -11,3 +11,6 @@
 
 <!-- Assignment 3 -->
 <a href="/csci202/Assignment_3_CSS_painting/03_painting_JQuery_draggable/index.html">Click HERE to go to Assignment 3</a><br>
+
+<!-- Assignment 4 -->
+<a href="/csci202/Assignment_4_jQuery_p5_Transition/assignment4Page/index.html">Click HERE to go to Assignment 4</a><br>
