@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suave Sebastian - Media</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <!-- logo -->
+            <div id="logo">
+                <span class="wsite-logo">
+                    <a href="index.html">
+                        <span id="title">PLEASE DATE HIM</span>
+                    </a>
+                </span>
+            </div> <!-- end of logo -->
+
+            <!-- nav -->
+            <div class="menu">
+                <div class="container">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li id="active"><a href="media.html">Media</a></li>
+                            <li><a href="social.html">Social</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div> <!-- end of nav -->
+
+        </header> <!-- end of header -->
+
+        <main>
+            <div class="left2">
+                <h2>
+                    SEB: WHAT A CLASSY GUY
+                </h2>
+                <h4>
+                    Enjoy this beautiful photo gallery of yours truly
+                </h4>
+                <p>
+                    Seb has been establishing his legacy of being a renaissance man since 2001. <br>
+                    He has won the <i>Best Haircut Award</i> seven times, <br>
+                    won nineteen <i>Oscars</i>, <br>
+                    and is the recipient of the <i>Miles Davis Medal for Excellent Bassery.</i>
+                </p>
+            </div> <!-- end of left float -->
+            <div class="right2">
+            <!-- Slideshow Container -->
+            <div class="slideshowcont">
+                <!-- images w/ number and captions -->
+                <div class="slides fade">
+                    <div class="numtext">1 / 9</div>
+                    <img src="images/slide2.jpg" alt="" style="width:100%">
+                    <div class="caption">Seb the Rapper</div>
+                </div>
+
+                <div class="slides fade">
+                    <div class="numtext">2 / 9</div>
+                    <img src="images/slide3.jpg" alt="" style="width:100%">
+                    <div class="caption">Seb seducing another lucky lady</div>
+                </div>
+
+                <div class="slides fade">
+                    <div class="numtext">3 / 9</div>
+                    <img src="images/slide5.jpg" alt="" style="width:100%">
+                    <div class="caption">Seb showing the world his Military Might</div>
+                </div>
+
+                <div class="slides fade">
+                    <div class="numtext">4 / 9</div>
+                    <img src="images/slide8.jpg" alt="" style="width:100%">
+                    <div class="caption">Seb posing for the camera with Africa and Robocop</div>
+                </div>
+
+                <div class="slides fade">
+                    <div class="numtext">5 / 9</div>
+                    <img src="images/slide9.jpg" alt="" style="width:100%">
+                    <div class="caption">Seb the silly with a box on his head</div>
+                </div>
+
+                <div class="slides fade">
+                    <div class="numtext">6 / 9</div>
+                    <img src="images/slide10.jpg" alt="" style="width:100%">
+                    <div class="caption">Seb hiding behind a laundry basket from nerf guns</div>
+                </div>
+
+                <div class="slides fade">
+                    <div class="numtext">7 / 9</div>
+                    <img src="images/slide11.jpg" alt="" style="width:100%">
+                    <div class="caption">Seb as a baby boy</div>
+                </div>
+
+                <div class="slides fade">
+                    <div class="numtext">8 / 9</div>
+                    <img src="images/slide12.jpg" alt="" style="width:100%">
+                    <div class="caption">Seb immediately after being caught picking his nose</div>
+                </div>
+
+                <div class="slides fade">
+                    <div class="numtext">9 / 9</div>
+                    <img src="images/slide13.jpg" alt="" style="width:100%">
+                    <div class="caption">Seb in Fourth grade dressed as Ghandi</div>
+                </div>
+
+                <!-- Next/Prev buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+                <a class="next" onclick="plusSlides(1)">&#10095</a>
+            </div> <!-- End of slideshow container -->
+            <br>
+
+            <!-- dots/circles -->
+            <div style="text-align: center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
+                <span class="dot" onclick="currentSlide(9)"></span>
+            </div> <!-- dots/circles end -->
+
+
+            <!-- Automatic Slideshow JS -->
+            <script>
+                var slideIndex = 0;
+                showSlides();
+
+                // Add next/prev controls
+                // Add thumbnail img controls
+
+                function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("slides");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) { slideIndex = 1 }
+                    slides[slideIndex - 1].style.display = "block";
+                    setTimeout(showSlides, 5000); // Change image every 5 seconds
+                }
+            </script>
+            </div> <!-- end of right float -->
+            <div class="clearfix"></div>
+        </main>
+
+    </div> <!-- end of wrapper -->
+</body>
+
+<footer>
+    <div class="copy">
+        <ul>
+            <li><a href="https://twitter.com/seb_rowland?s=20" target="_blank">
+                    <img src="./svg/002-twitter-1.svg" alt="">
+                </a></li>
+
+            <li><a href="https://www.instagram.com/sebrowland01/" target="_blank">
+                    <img src="./svg/004-instagram-1.svg" alt="">
+                </a></li>
+
+            <li><a href="https://www.facebook.com/people/Seb-Rowland/100005725608936" target="_blank">
+                    <img src="./svg/006-facebook.svg" alt="">
+                </a></li>
+        </ul>
+        <h4>Suave Sebastian</h4>
+        Copyright &copy; <a href="mailto: gradyp2@wwu.edu">Parker Grady </a> 2021
+    </div> <!-- End of copy -->
+</footer>
+
+</html>
