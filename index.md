@@ -14,3 +14,6 @@
 
 <!-- Assignment 4 -->
 <a href="/csci202/Assignment_4_jQuery_p5_Transition/assignment4Page/index.html">Click HERE to go to Assignment 4</a><br>
+
+<!-- Final Project-->
+<a href="/csci202/FinalProject/index.html">Click HERE to go to Assignment 4</a><br>
